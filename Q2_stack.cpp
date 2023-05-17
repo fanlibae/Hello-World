@@ -49,7 +49,7 @@ int findMin(vector<int> stk1, vector<int> stk2, int *whichStack){
 void calCount(vector<int> s1,vector<int> s2,int min, int CheckWhichStack){
 	int MinInWhere = 0;
 	if(s1.empty() && s2.empty()){	
-		cout<< "====== result ========"<< endl;
+		cout<< "===== result ======="<< endl;
 		cout<< "result : " << count << endl;
 	}else{
 		cout<<endl << "s1 : ";
